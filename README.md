@@ -1,5 +1,7 @@
 # 🎬 AI Video Assistant
 
+DEMO - https://video-agent-18.streamlit.app/
+
 **Turn any meeting recording or YouTube video into a searchable, chattable knowledge base.**
 
 AI Video Assistant transcribes audio/video, generates a title and summary, extracts action items, key decisions, and open questions, and lets you **chat with the transcript** using Retrieval-Augmented Generation (RAG) — all through a CLI or a polished Streamlit web UI.
