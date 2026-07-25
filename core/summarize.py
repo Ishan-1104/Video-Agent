@@ -54,7 +54,7 @@ def generate_title(transcript : str) -> str :
     llm = get_llm()
 
     title_chain = (
-        RunnablePassthrough | RunnableLambda(lambda x : {"text" :x}) |
+        RunnablePassthrough() | RunnableLambda(lambda x : {"text" :x}) |
         ChatPromptTemplate.from_messages([
             (
                 "system",
